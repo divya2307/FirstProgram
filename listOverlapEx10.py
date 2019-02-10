@@ -13,3 +13,8 @@ print(c)
 list1 = random.sample(range(1,30),12)
 list2 = random.sample(range(1,30),16)
 
+list3 = [j for j in set(list1) if j in list2 ]
+
+print ("List 1 " ,list1)
+print ("List 2 ",list2)
+print ("Result List 3 " ,list3)
